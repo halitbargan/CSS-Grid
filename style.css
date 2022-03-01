@@ -1,0 +1,63 @@
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 300px 150px 125px;
+    grid-template-areas:
+
+    "header header header header"
+    "box1 box2 box3 sidebar"
+    "main main main sidebar"
+    "footer footer footer footer"
+    ;
+    gap: 0.75rem;
+    color:white;
+    font-size: 1.2rem;
+}
+.header{
+    grid-area: header;
+    background-color: #4169E1;
+    padding-left:1rem ;
+    padding-top:1rem ;
+}
+.box1{
+    grid-area: box1;
+    background-color: #4169E1;
+    padding-left:1rem ;
+    padding-top:1rem ;
+
+}
+.box2{
+    grid-area: box2;
+    background-color: #4169E1;
+    padding-left:1rem ;
+    padding-top:1rem ;
+
+}
+.box3{
+    grid-area: box3;
+    background-color: #4169E1;
+    padding-left:1rem ;
+    padding-top:1rem ;
+
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: #4169E1;
+    padding-left:1rem ;
+    padding-top:1rem ;
+
+}
+.main{
+    grid-area: main;
+    background-color: #4169E1;
+    padding-left:1rem ;
+    padding-top:1rem ;
+
+}
+.footer{
+    grid-area: footer;
+    background-color: #4169E1;
+    padding-left:1rem ;
+    padding-top:1rem ;
+
+}
